@@ -1,10 +1,10 @@
 @font-face {
   font-family: NotoSans-Bold;
-  src: url(/fonts/NotoSans-Bold.ttf);
+  src: url(/site/fonts/NotoSans-Bold.ttf);
 }
 @font-face {
   font-family: NotoSans-Regular;
-  src: url(/fonts/NotoSans-Regular.ttf);
+  src: url(/site/fonts/NotoSans-Regular.ttf);
 }
 * {
   margin: 0;
@@ -13,10 +13,10 @@
 .header-logo {
   margin: 70px 868px;
 }
-.text, .title, .descriptor {
+.text-info, .title-info, .descriptor-info {
   color: #FFFFFF;
 }
- .text {
+ .text-info {
   position: absolute;
   font-family: 'NotoSans-Regular';
   font-style: normal;
@@ -28,7 +28,7 @@
   left: 802px;
   top: 261px;
 }
-.title {
+.title-info {
   position: absolute;
   font-family: 'NotoSans-Bold';
   font-style: normal;
@@ -41,7 +41,7 @@
   left: 493px;
   top: 286px;
 }
-.descriptor {
+.descriptor-info {
   position: absolute;
   width: 589px;
   height: 57px;
