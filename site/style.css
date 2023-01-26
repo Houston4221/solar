@@ -1,0 +1,99 @@
+@font-face {
+  font-family: NotoSans-Bold;
+  src: url(/fonts/NotoSans-Bold.ttf);
+}
+@font-face {
+  font-family: NotoSans-Regular;
+  src: url(/fonts/NotoSans-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.header-logo {
+  margin: 70px 868px;
+}
+.text, .title, .descriptor {
+  color: #FFFFFF;
+}
+ .text {
+  position: absolute;
+  font-family: 'NotoSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  width: 315.16px;
+  height: 25px;
+  left: 802px;
+  top: 261px;
+}
+.title {
+  position: absolute;
+  font-family: 'NotoSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  font-variant: small-caps;
+  width: 932px;
+  height: 86px;
+  left: 493px;
+  top: 286px;
+}
+.descriptor {
+  position: absolute;
+  width: 589px;
+  height: 57px;
+  left: 665px;
+  top: 375px;
+  font-family: 'NotoSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 57px;
+}
+.header {
+  background-image: url(/public/backg.png);
+  position: absolute;
+  width: 1921px;
+  height: 900px;
+  left: -1px;
+  top: 0px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100.05px;
+  height: 100px;
+  left: 806px;
+  top: 482px;
+}
+.button-text {
+  color: #FFFFFF;
+  position: absolute;
+  margin-left: 49px;
+  margin-top: 59px;
+  margin-bottom: 16px;
+  width: 258px;
+  height: 25px;
+  font-family: 'NotoSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+.socials {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 166.12px;
+  height: 30.03px;
+  left: 876px;
+  top: 832px;
+}
+.socials img {
+  width: 30px;
+  height: 30px;
+}
