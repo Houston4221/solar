@@ -70,20 +70,6 @@
   left: 806px;
   top: 482px;
 }
-.button-text {
-  color: #FFFFFF;
-  position: absolute;
-  margin-left: 49px;
-  margin-top: 59px;
-  margin-bottom: 16px;
-  width: 258px;
-  height: 25px;
-  font-family: 'NotoSans-Regular';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 25px;
-}
 .socials {
   position: absolute;
   display: flex;
@@ -108,17 +94,17 @@
   float: right;
   margin-top: 93px;
 }
-.title-services,.first-paragraph, .paragraph-services {
+.title-services,.first-paragraph, .paragraph-services, .description-clients, .title-clients {
   font-family: 'NotoSans-Bold';
   font-style: normal;
 }
-.text-services,.first-paragraph, .paragraph-services, .line, .text-slider, .block, .text-rate {
+.text-services,.first-paragraph, .paragraph-services, .line, .text-slider, .block, .text-rate, .description-clients {
   color: #303030;
 }
 .text-services,.first-paragraph, .paragraph-services {
   margin-right: 689px;
 }
-.title-services {
+.title-services, .title-clients{
   color: #868585;
   font-weight: 700;
   font-size: 24px;
@@ -273,4 +259,37 @@ top: 3528px;
 }
 .img-clients {
   float: left;
+}
+.title-clients {
+
+ margin-bottom: 60px;
+}
+.description-clients {
+  font-weight: 700;
+font-size: 18px;
+line-height: 25px;
+margin-right: 121px;
+margin-bottom: 30px;
+margin-left: 601px;
+}
+.checklist-clients {
+  font-family:'NotoSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+font-size: 14px;
+margin-left: 651px;
+}
+.text-checklist-two {
+ margin-top: 15px;
+}
+.text-checklist-three, .text-checklist-four {
+  margin-top: 16px;
+}
+.button-clients {
+  margin-top: 65px;
+  margin-left: 601px;
+}
+.arrow-clients {
+  margin-top: 26px;
+  margin-left: 276px;
 }
